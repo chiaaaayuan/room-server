@@ -1,0 +1,16 @@
+// vscode: { "language": "json" }
+{
+  "name": "room-server",
+  "version": "1.0.0",
+  "description": "簡單的房間代碼中繼伺服器，供 Unity Mirror 使用",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
